@@ -35,4 +35,4 @@ Prime Shine is a testament to my ability to:
 - Leverage CSS and SCSS to create scalable, maintainable, and animated experiences.  
 - Deliver clean and modern websites that balance form and functionality.  
 
-This project reflects my passion for web development and my dedication to creating professional, user-focused web experiences. Deployed on **[platform of your choice, e.g., Vercel, Netlify]** for top-tier performance and scalability.
+This project reflects my passion for web development and my dedication to creating professional, user-focused web experiences. Deployed on **Vercel** for top-tier performance and scalability.

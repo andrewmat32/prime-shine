@@ -36,4 +36,4 @@ Prime Shine isn’t just a portfolio—it's a concept piece showcasing:
 - Expertise in advanced CSS/SCSS techniques to create scalable and maintainable animations.  
 - A unique blend of creative and technical skills to craft modern yet nostalgic designs.  
 
-This project is a love letter to retro-futurism, celebrating the timeless cool of Miami Vice while embracing modern web development. Deployed on **[platform of your choice, e.g., Vercel, Netlify]** for lightning-fast performance and scalability.  
+This project is a love letter to retro-futurism, celebrating the timeless cool of Miami Vice while embracing modern web development. Deployed on **Vercel** for lightning-fast performance and scalability.  

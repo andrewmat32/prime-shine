@@ -1,0 +1,69 @@
+section {
+    padding: $padding-section 0;
+
+    @media screen and (max-width: map-get($media-queries, popup-max)) {
+        height:max-content;
+    }
+
+    .container {
+        @include container;
+
+        @media screen and (min-width: map-get($media-queries, popup-max)) {
+            padding: 0 5rem;
+        }
+    }
+}
+
+section:has(.header__image) {
+    padding: 0;
+
+    .container {
+        padding: $padding-section 0;
+    }
+}
+
+section.section-quarter {
+    height: fit-content;
+}
+
+section.section-full {
+    height: 100vh;
+    height: 100dvh;
+
+    @media screen and (max-width: map-get($media-queries, popup-max)) {
+        height: max-content;
+    }
+}
+
+section.section-dynamic {
+    height: auto;
+    padding: $padding-section-dynamic 0;
+}
+
+section.header {
+    //background-color: $color-secondary;
+}
+
+
+.section-scroll {
+    min-height: 100dvh;
+
+    section {
+        min-height: 100dvh;
+        padding: 10rem 0;
+    }
+
+    @media screen and (min-width: map-get($media-queries, popup-max)) {
+        height: 100vh;
+        height: 100dvh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+
+        section {
+            height: 100%;
+            scroll-snap-align: start;
+            scroll-snap-stop: always;
+        }
+    }
+}

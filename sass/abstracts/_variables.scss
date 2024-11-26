@@ -1,0 +1,258 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/*
+ * Grid variables
+ */
+
+:root {
+
+    // ** HEADING STYLES **
+    --typography-h1-font-size: 45px;
+    --typography-h1-line-height: 45px;
+
+    --typography-h2-font-size: 36px;
+    --typography-h2-line-height: 36px;
+
+    --typography-h3-font-size: 30px;
+    --typography-h3-line-height: 30px;
+
+    --typography-h4-font-size: 24px;
+    --typography-h4-line-height: 24px;
+
+    --typography-h5-font-size: 20px;
+    --typography-h5-line-height: 20px;
+
+    --typography-h6-font-size: 16px;
+    --typography-h6-line-height: 16px;
+
+    // ** BODY STYLES **
+    --typography--content-smallest-font-size: 12px;
+    --typography--content-smallest-line-height: 12px;
+
+    --typography--content-smaller-font-size: 12px;
+    --typography--content-smaller-line-height: 16px;
+
+    --typography--content-small-font-size: 14px;
+    --typography--content-small-line-height: 16px;
+
+    --typography--content-regular-font-size: 17px;
+    --typography--content-regular-line-height: 22px; //20px
+
+    --typography--content-medium-font-size: 19px;
+    --typography--content-medium-line-height: 28px;
+
+    --typography--content-large-font-size: 22px;
+    --typography--content-large-line-height: 24px;
+
+    --typography--content-larger-font-size: 22px;
+    --typography--content-larger-line-height: 32px;
+
+    --typography--content-largest-font-size: 28px;
+    --typography--content-largest-line-height: 32px;
+
+    // ** BUTTON STYLES **
+    --typography-button-call-to-action-font-size: 16px;
+    --typography-button-call-to-action-line-height: 16px;
+
+
+
+    // ** SHADOW **
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.15);
+    --shadow-default: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.16);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.26);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.36);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.46);
+    --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.65);
+    --shadow-none: none;
+
+
+
+    // ** MEDIA QUERIES **
+    --media-query-desktop-4k: 2560px;
+    --media-query-desktop-2k: 1920px;
+    --media-query-popup-max: 1600px;
+    --media-query-desktop-min: 1280px;
+    --media-query-tablet-max: 1024px;
+    --media-query-tablet-min: 768px;
+    --media-query-mobile-max: 767px;
+    --media-query-mobile-large: 550px;
+
+    // ** COLORS **
+    --color-dark-black: #0D0D0D;
+    --color-dark-black-rgb: 13, 13, 13;
+
+    --color-classic-silver: #C0C0C0;
+    --color-classic-silver-rgb: 192, 192, 192;
+
+    --color-dark-navy: #1A2A41;
+    --color-dark-navy-rgb: 26, 42, 65;
+
+    --color-gunmetal-gray: #4B4B4B;
+    --color-gunmetal-gray-rgb: 75, 75, 75;
+
+    --color-dark-chrome: #383838;
+    --color-dark-chrome-rgb: 56, 56, 56;
+
+    --color-midnight-blue: #2C3E50;
+    --color-midnight-blue-rgb: 44, 62, 80;
+
+    --color-obsidian-black: #1C1C1C;
+    --color-obsidian-black-rgb: 28, 28, 28;
+
+    --color-steel-blue: #4682B4;
+    --color-steel-blue-rgb: 70, 130, 180;
+
+    --color-neon-pink-faded: #FFD5FF;
+    --color-neon-pink-faded-rgb: 255, 213, 255;
+
+    --color-neon-pink: #D42CCA;
+    --color-neon-pink-rgb: 212, 44, 202;
+
+
+    --overlay-medium: rgba(0, 0, 0, 0.5);     // Moderate Dark Overlay
+    --overlay-light: rgba(0, 0, 0, 0.08);     // Subtle Dark Overlay
+    --overlay-none: rgba(3, 2, 1, 0);         // Invisible Background Layer
+
+    // ** PADDINGS **
+    --padding-content: 1rem;
+    --padding-section: 2rem;
+    --padding-section-dynamic: 6rem;
+    --padding-to-screen-edge: 2rem;
+
+    // ** MARGINS **
+    --margin-right-to-screen-edge: 12%;
+
+    // ** RADIUS **
+    --border-radius: .5rem;
+}
+
+// ** COLORS **
+$color-dark-black: var(--color-dark-black); // Deep black for a sleek and luxurious look
+$color-dark-black-rgb: var(--color-dark-black-rgb);
+
+$color-classic-silver: var(--color-classic-silver); // Classic silver for a modern and metallic finish
+$color-classic-silver-rgb: var(--color-classic-silver-rgb);
+
+$color-dark-navy: var(--color-dark-navy); // Dark navy blue for sophistication and depth
+$color-dark-navy-rgb: var(--color-dark-navy-rgb);
+
+$color-gunmetal-gray: var(--color-gunmetal-gray); // Gunmetal gray for a subtle, professional metallic tone
+$color-gunmetal-gray-rgb: var(--color-gunmetal-gray-rgb);
+
+$color-dark-chrome: var(--color-dark-chrome); // Dark chrome for a polished, high-end feel
+$color-dark-chrome-rgb: var(--color-dark-chrome-rgb);
+
+$color-midnight-blue: var(--color-midnight-blue); // Midnight blue for an elegant and premium touch
+$color-midnight-blue-rgb: var(--color-midnight-blue-rgb);
+
+$color-obsidian-black: var(--color-obsidian-black); // Obsidian black for a deep, glossy, and luxurious vibe
+$color-obsidian-black-rgb: var(--color-obsidian-black-rgb);
+
+$color-steel-blue: var(--color-steel-blue); // Steel blue for a metallic yet vibrant accent
+$color-steel-blue-rgb: var(--color-steel-blue-rgb);
+
+$color-neon-pink-faded: var(--color-neon-pink-faded); // Faded neon pink for a soft and dreamy look
+$color-neon-pink-faded-rgb: var(--color-neon-pink-faded-rgb);
+
+$color-neon-pink: var(--color-neon-pink); // Neon pink for a bold and energetic pop of color
+$color-neon-pink-rgb: var(--color-neon-pink-rgb);
+
+$overlay-medium: rgba(0, 0, 0, 0.5);     // Moderate Dark Overlay
+$overlay-light: rgba(0, 0, 0, 0.08);     // Subtle Dark Overlay
+$overlay-none: rgba(3, 2, 1, 0);         // Invisible Background Layer
+
+$columns: 12;
+$content-gap: 1rem;
+
+$shadow-sm: var(--shadow-sm);
+$shadow-default: var(--shadow-default);
+$shadow-md: var(--shadow-md);
+$shadow-lg: var(--shadow-lg);
+$shadow-xl: var(--shadow-xl);
+$shadow-2xl: var(--shadow-2xl);
+
+$padding-content: var(--padding-content);
+$padding-section: var(--padding-section);
+$padding-section-dynamic: var(--padding-section-dynamic);
+
+$padding-to-screen-edge: var(--padding-to-screen-edge);
+$margin-right-to-screen-edge: var(--margin-right-to-screen-edge);
+
+$border-radius: var(--border-radius);
+
+// Order of media queries is important.
+// typography mixin will loop through this map and apply styles in order of this map
+$media-queries: (
+    desktop-4k: 2560px,
+    desktop-2k: 1920px,
+    popup-max: 1600px,
+    desktop-min: 1280px,
+    tablet-max: 1024px,
+    tablet-min: 768px,
+    mobile-max: 767px,
+    mobile-large: 550px
+);
+
+$gap: (
+        '0': 0,
+        '1': 0.25rem,
+        '2': 0.5rem,
+        '3': 0.75rem,
+        '4': 1rem,
+        '5': 1.25rem,
+        '6': 1.5rem,
+        '8': 2rem,
+        '10': 2.5rem,
+        '12': 3rem,
+        '16': 4rem,
+        '20': 5rem,
+        '24': 6rem,
+        '32': 8rem,
+        '40': 10rem,
+);
+
+$grid-columns-rows-values: (
+        '1': repeat(1, minmax(0, 1fr)),
+        '2': repeat(2, minmax(0, 1fr)),
+        '3': repeat(3, minmax(0, 1fr)),
+        '4': repeat(4, minmax(0, 1fr)),
+        '5': repeat(5, minmax(0, 1fr)),
+        '6': repeat(6, minmax(0, 1fr)),
+        '7': repeat(7, minmax(0, 1fr)),
+        '8': repeat(8, minmax(0, 1fr)),
+        '9': repeat(9, minmax(0, 1fr)),
+        '10': repeat(10, minmax(0, 1fr)),
+        '11': repeat(11, minmax(0, 1fr)),
+        '12': repeat(12, minmax(0, 1fr))
+);
+
+$grid-span-values: (
+        '1': span 1,
+        '2': span 2,
+        '3': span 3,
+        '4': span 4,
+        '5': span 5,
+        '6': span 6,
+        '7': span 7,
+        '8': span 8,
+        '9': span 9,
+        '10': span 10,
+        '11': span 11,
+        '12': span 12
+);
+
+////Text
+//$font: "Open Sans";
+//// buttonFont applies to all typography elements of type 'buttons' in typography mixin
+//$buttonFont: "Open Sans Semi Condensed";
+
+//Text
+//$headingFont: "Fugaz One";
+$headingFont: "Merriweather" open-sans;
+$font: "AudioWide";
+// buttonFont applies to all typography elements of type 'buttons' in typography mixin
+$buttonFont: "AudioWide";
+$accentFont: "FugazOne";
+

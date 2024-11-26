@@ -1,0 +1,170 @@
+#about {
+    animation: colorFromGray 3s ease-in-out;
+
+    .container {
+        @include flexbox(center, center, row, null, $content-gap);
+
+        @media screen and (max-width: map-get($media-queries, popup-max)) {
+            @include flexbox(center, center, column, null, $content-gap);
+        }
+    }
+}
+
+
+#about {
+    .container {
+
+        .left {
+            flex-grow: 1;
+            width: 50%;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                width: 100%;
+
+                p {
+                    font-size: 1rem;
+                }
+
+                ul {
+                    font-size: 1.4rem;
+
+                    li {
+                        font-size: 1rem;
+
+                        i {
+                            padding: .5rem;
+                        }
+                    }
+                }
+            }
+
+            h2 {
+                @media screen and (max-width: map-get($media-queries, popup-max)) {
+                    font-size: 1.5rem;
+
+                    span {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        .right {
+            flex-grow: 1;
+            width: 50%;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                width: 100%;
+            }
+        }
+
+        .left,
+        .right {
+            .image-wrapper {
+                @include grid( 2 );
+                padding: 0 5rem;
+
+                @media screen and (max-width: map-get($media-queries, tablet-max)) {
+                    @include grid( 1 );
+                    padding: 0;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: .5rem;
+                    filter: grayscale(60%);
+
+                    &:hover {
+                        //position: absolute;
+                        //z-index: 3;
+                        box-shadow: 0 0 20px rgba($color-dark-navy-rgb, 0.8);
+                        transition: all 0.3s;
+                        filter: grayscale(0);
+                    }
+                }
+            }
+
+            .image-wrapper:hover {
+                img {
+                    //transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+#about {
+    .container {
+        background-color: rgba($color-midnight-blue, 1);
+
+    }
+
+    position: relative;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        animation: moveInBottom 1.7s ease-out;
+        color: whitesmoke;
+
+        @media screen and (min-width: map-get($media-queries, popup-max)) {
+            grid-column: span 2;
+        }
+
+        span {
+            font-family: 'Monoton', cursive;
+            font-size: 3rem;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            background-color: whitesmoke;
+            margin-top: 1rem;
+            animation: moveInBottom 1.7s ease-out;
+            width: 100%;
+            border-radius: 5rem;
+        }
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: justify;
+        margin-bottom: 2rem;
+        animation: moveInBottom 2s ease-out;
+    }
+
+    ul {
+        font-size: 1.5rem;
+        text-align: justify;
+        margin-bottom: 2rem;
+        animation: moveInBottom 2s ease-out;
+        padding: 2rem;
+
+        li {
+            margin-bottom: 1rem;
+            color: white;
+
+            i {
+                background-color: rgba( whitesmoke, 0.8);
+                color: $color-midnight-blue;
+                padding: 1rem;
+                border-radius: 1rem;
+                margin-right: 1rem;
+            }
+
+            &:hover {
+                background-color: rgba( $color-midnight-blue-rgb, 1);
+                border-radius: 1rem;
+
+                i {
+                    background-color: unset;
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+}

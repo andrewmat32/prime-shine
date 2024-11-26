@@ -1,0 +1,166 @@
+#services {
+    animation: colorFromGray 3s ease-in-out;
+
+    .container {
+        @include grid( 2, auto, 4rem, 4rem );
+
+        @media screen and (max-width: map-get($media-queries, tablet-max)) {
+            @include grid( 1, auto, 4rem, 4rem );
+        }
+    }
+}
+
+
+.services {
+    h2 {
+        font-size: 3rem;
+        color: whitesmoke;
+        grid-column: span 2;
+        text-align: center;
+        margin: 0;
+
+        span {
+            font-family: 'Monoton', cursive;
+            font-size: 3rem;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            background-color: whitesmoke;
+            margin-top: 1rem;
+            animation: moveInBottom 1.7s ease-out;
+            width: 100%;
+            border-radius: 5rem;
+        }
+
+        @media screen and (max-width: map-get($media-queries, popup-max)) {
+            font-size: 2rem;
+
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        @media screen and (max-width: map-get($media-queries, tablet-max)) {
+            grid-column: 1;
+        }
+    }
+
+    &-service {
+        border-radius: .5rem;
+        margin: 1rem;
+        text-align: center;
+        transition: transform 0.3s;
+        box-shadow: 0 0 20px rgba($color-steel-blue-rgb, 0.5);
+        position: relative;
+
+        @media screen and (max-width: map-get($media-queries, popup-max)) {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 2rem;
+            //color: $color-steel-blue;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                font-size: 1.5rem;
+            }
+        }
+
+        h3,
+        p {
+            position: absolute !important;
+            z-index: 4 !important;
+            left: -3rem;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                left: 1rem;
+            }
+        }
+
+        p {
+            bottom: 0;
+            text-align: left;
+            width: 70%;
+            left: 3rem;
+            opacity: 0;
+            transition: all 0.3s;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                opacity: 1;
+                left: 1rem;
+            }
+
+        }
+
+        .image-wrapper {
+            img {
+                width: -webkit-fill-available;
+                width: -moz-available;
+                height: 250px;
+                object-fit: cover;
+                border-radius: .5rem;
+                transition: all 0.3s;
+                box-shadow: 0 0 20px rgba($color-dark-navy-rgb, 0.8);
+                filter: grayscale(30%);
+
+                //&:hover {
+                //    transform: scale(1.05);
+                //    transition: all 0.3s;
+                //}
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                height: 100%;
+                width: 100%;
+                background-color: rgba($color-dark-black-rgb, 0.4); // Adjust the opacity as needed
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: .5rem;
+                z-index: 2;
+                transition: all 0.3s;
+            }
+
+            &:hover {
+                //rotate: y 30deg;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 0 20px rgba($color-classic-silver-rgb, 0.3);
+
+            @media screen and (min-width: map-get($media-queries, popup-max)) {
+                p {
+                    opacity: 1;
+                    transition: opacity 0.3s;
+                    animation: moveInRight 0.8s ease-out;
+                }
+
+                h3 {
+                    scale: 1.1;
+                    transition: all 0.5s;
+                    text-shadow: 2px 2px 0 rgba(black, 0.7);
+                }
+            }
+
+            .image-wrapper {
+                img {
+                    filter: grayscale(0);
+                }
+
+                &:after {
+                    background-color: rgba(0, 0, 0, 0.3);
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+}

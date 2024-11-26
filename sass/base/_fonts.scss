@@ -1,0 +1,168 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// Merriweather_Sans
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-Light'), url('/fonts/Merriweather_Sans/MerriweatherSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-LightItalic'), url('/fonts/Merriweather_Sans/MerriweatherSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-Regular'), url('/fonts/Merriweather_Sans/MerriweatherSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-Medium'), url('/fonts/Merriweather_Sans/MerriweatherSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-MediumItalic'), url('/fonts/Merriweather_Sans/MerriweatherSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-Italic'), url('/fonts/Merriweather_Sans/MerriweatherSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-Bold'), url('/fonts/Merriweather_Sans/MerriweatherSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-BoldItalic'), url('/fonts/Merriweather_Sans/MerriweatherSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-ExtraBold'), url('/fonts/Merriweather_Sans/MerriweatherSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: local('MerriweatherSans-ExtraBoldItalic'), url('/fonts/Merriweather_Sans/MerriweatherSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+// -----------------------------------------------------------------------------
+// Pontano_Sans
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'PontanoSans';
+    src: local('PontanoSans-Light'), url('/fonts/Pontano_Sans/PontanoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PontanoSans';
+    src: local('PontanoSans-Medium'), url('/fonts/Pontano_Sans/PontanoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PontanoSans';
+    src: local('PontanoSans-Regular'), url('/fonts/Pontano_Sans/PontanoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PontanoSans';
+    src: local('PontanoSans-Bold'), url('/fonts/Pontano_Sans/PontanoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PontanoSans';
+    src: local('PontanoSans-SemiBold'), url('/fonts/Pontano_Sans/PontanoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+// -----------------------------------------------------------------------------
+// Audiowide
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'AudioWide';
+    src: local('AudioWide-Regular'), url('/fonts/Audiowide/Audiowide-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// -----------------------------------------------------------------------------
+// Fugaz_One
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'FugazOne';
+    src: local('FugazOne-Regular'), url('/fonts/Fugaz_One/FugazOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// -----------------------------------------------------------------------------
+// Monoton
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Monoton';
+    src: local('Monoton-Regular'), url('/fonts/Monoton/Monoton-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

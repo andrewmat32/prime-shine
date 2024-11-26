@@ -1,0 +1,50 @@
+#hero {
+    color: $color-classic-silver;
+    font-family: $headingFont;
+    animation: colorFromGray 3s ease-in-out;
+
+    @media screen and (max-width: map-get($media-queries, popup-max)) {
+        @include flexbox(center, center, column, null);
+    }
+
+    .container {
+        @include flexbox(center, center, column, null);
+
+        h1 {
+            font-family: 'Monoton', cursive;
+            color: white;
+            animation: moveInBottom 1.7s ease-out;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                font-size: 2rem;
+            }
+
+            span {
+                font-family: 'Monoton', cursive;
+                font-size: inherit;
+            }
+        }
+
+        p {
+            font-family: $font;
+            //text-transform: uppercase;
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
+            animation: moveInBottom 2s ease-out;
+
+            @media screen and (max-width: map-get($media-queries, popup-max)) {
+                font-size: 1rem;
+            }
+        }
+
+        .scroll-down {
+            animation: bounce 2s infinite;
+
+        }
+
+    }
+}
+
+

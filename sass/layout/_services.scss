@@ -5,7 +5,9 @@
         @include grid( 2, auto, 4rem, 4rem );
 
         @media screen and (max-width: map-get($media-queries, tablet-max)) {
-            @include grid( 1, auto, 4rem, 4rem );
+            //@include grid( 1, auto, 4rem, 4rem );
+            @include flexbox( center, center, column, null, 4rem );
+            padding: 0 20px;
         }
     }
 }
@@ -113,6 +115,11 @@
                 //    transform: scale(1.05);
                 //    transition: all 0.3s;
                 //}
+
+                @media screen and (max-width: map-get($media-queries, tablet-max)) {
+                    height: auto;
+                    width: 100%;
+                }
             }
 
             &:after {

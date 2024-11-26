@@ -19,6 +19,10 @@
                 font-size: 2rem;
             }
 
+            @media screen and (max-width: map-get($media-queries, tablet-max)) {
+                font-size: 1.7rem;
+            }
+
             span {
                 font-family: 'Monoton', cursive;
                 font-size: inherit;

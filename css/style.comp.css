@@ -838,7 +838,7 @@ body.no-scroll {
       right: 4rem; } }
   @media screen and (max-width: 1600px) {
     .side-navigation {
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgba(0, 0, 0, 0.8);
       padding: .5rem 0; } }
   .side-navigation .side-navigation-list {
     display: flex;
@@ -876,6 +876,10 @@ body.no-scroll {
         visibility: hidden;
         position: absolute;
         text-shadow: 2px 2px 0 rgba(var(--color-steel-blue-rgb), 0.1); }
+        @media screen and (max-width: 1600px) {
+          .side-navigation .side-navigation-list .navigation-item a,
+          .side-navigation .side-navigation-list .navigation-item span {
+            background-color: rgba(0, 0, 0, 0.8); } }
       .side-navigation .side-navigation-list .navigation-item .dot {
         scale: 1.4;
         cursor: pointer;

@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="fonts/fontAwesome/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="index.js"></script>
+
+        <title>Prime Shine</title>
+    </head>
+
+    <body>
+
+        <div class="section-scroll">
+            <section id="hero" class="section section-full hero">
+                <div class="container">
+                    <p></p>
+                    <h1 class="neon">
+                        PR<span class="flicker-slow">I</span>ME<span class="flicker-fast">&nbsp;S</span><span class="flicker-slower">H</span>INE
+                    </h1>
+                    <p>Experience Excellence in Car Detailing</p>
+                    <span class="scroll-down" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})"><i class="fa fa-caret-down"></i></span>
+                </div>
+            </section>
+
+            <section id="about" class="section section-full about">
+                <div class="container">
+                    <div class="left">
+                        <h2 class="neon"><span class="flicker-slow">W</span>hy Choose Us?</h2>
+                        <p>Prime Shine is dedicated to delivering premium car detailing services with precision and care. With years of experience and a passion for perfection, we ensure every vehicle we touch leaves looking brand new.</p>
+                        <ul>
+                            <li><i class="fa fa-leaf"></i>Eco-Friendly Products</li>
+                            <li><i class="fa fa-people-group"></i>Professional Team</li>
+                            <li><i class="fa fa-wrench"></i>High-End Equipment</li>
+                            <li><i class="fa fa-magnifying-glass"></i>Attention to Detail</li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="image-wrapper">
+                            <img src="images/image-detailing.jpg" alt="Car detailing">
+                            <img src="images/image-detailing2.jpg" alt="Car detailing">
+                            <img src="images/image-detailing3.jpg" alt="Car detailing">
+                            <img src="images/image-detailing4.jpg" alt="Car detailing">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="section section-full services">
+                <div class="container">
+                    <h2 class="neon">Our <span class="flicker-slow">S</span>ervices</h2>
+                    <div class="services-service">
+                        <h3>Exterior Detailing</h3>
+                        <p><i class="fa fa-wand-sparkles"></i> &nbsp;Restore your car's shine with our thorough washing, waxing, and paint protection services.</p>
+                        <div class="image-wrapper">
+                            <img src="images/Image_013.jpg" alt="Car exterior detailing">
+                        </div>
+                    </div>
+                    <div class="services-service">
+                        <h3>Interior Detailing</h3>
+                        <p><i class="fa fa-car-rear"></i> &nbsp;Deep-cleaning for your seats, carpets, and dashboard, leaving your car's interior spotless.</p>
+                        <div class="image-wrapper">
+                            <img src="images/Image_015.jpg" alt="Car interior detailing">
+                        </div>
+                    </div>
+                    <div class="services-service">
+                        <h3>Ceramic Coating</h3>
+                        <p><i class="fa fa-shield-blank"></i> &nbsp;Long-lasting protection for your car's paint with advanced ceramic coatings.</p>
+                        <div class="image-wrapper">
+                            <img src="images/Image_017.jpg" alt="Ceramic coating">
+                        </div>
+                    </div>
+                    <div class="services-service">
+                        <h3>Paint Correction</h3>
+                        <p><i class="fa fa-paint-brush"></i> &nbsp;Remove scratches and swirls for a flawless, showroom-like finish.</p>
+                        <div class="image-wrapper">
+                            <img src="images/Image_014.jpg" alt="Paint correction">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="section section-full gallery">
+                <div class="container">
+                    <h2 class="neon">Our Ga<span class="flicker-slow">l</span><span class="flicker-fast">l</span>ery</h2>
+                    <p>Take a look at our work:</p>
+                    <div class="image-wrapper">
+                        <img src="images/Image_016.jpg" alt="Before and after car detailing">
+                        <img src="images/Image_008.jpg" alt="Shiny car close-up">
+                        <img src="images/Image_004.jpg" alt="Clean interior of a car">
+                        <img src="images/Image_022.jpg" alt="Polished wheels and tires">
+                        <img src="images/Image_019.jpg" alt="Car detailing process">
+                        <img src="images/Image_010.jpg" alt="Clean car interior">
+                        <img src="images/Image_007.jpg" alt="Shiny car close-up">
+                        <img src="images/Image_002.jpg" alt="Clean car interior">
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section section-full contact">
+                <div class="container">
+                    <h2 class="neon">Contact <span class="flicker-slow">U</span>s</h2>
+                    <p>We'd love to hear from you! Send us a message:</p>
+                    <form action="" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div class="side-navigation">
+            <div class="side-navigation-list">
+                <div class="navigation-item top"><i class="fa fa-caret-up"></i><span class="navigation">Previous</span></div>
+
+                <div data-nav="0" class="navigation-item"><span onclick="document.getElementById('hero').scrollIntoView({behavior: 'smooth'})" class="navigation">Home</span><div class="dot">•</div></div>
+
+                <div class="divider-dot"><div class="dot">•</div></div>
+                <div class="divider-dot"><div class="dot">•</div></div>
+
+                <div data-nav="1" class="navigation-item"><span onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})" class="navigation">About Us</span><div class="dot">•</div></div>
+
+                <div class="divider-dot"><div class="dot">•</div></div>
+                <div class="divider-dot"><div class="dot">•</div></div>
+
+                <div data-nav="2" class="navigation-item"><span onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})" class="navigation">Services</span><div class="dot">•</div></div>
+
+                <div class="divider-dot"><div class="dot">•</div></div>
+                <div class="divider-dot"><div class="dot">•</div></div>
+
+                <div data-nav="3" class="navigation-item"><span onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth'})" class="navigation">Gallery</span><div class="dot">•</div></div>
+
+                <div class="divider-dot"><div class="dot">•</div></div>
+                <div class="divider-dot"><div class="dot">•</div></div>
+
+                <div data-nav="4" class="navigation-item"><span onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="navigation">Contact</span><div class="dot">•</div></div>
+
+                <div class="navigation-item bottom"><i class="fa fa-caret-down"></i><span class="navigation">Next</span></div>
+            </div>
+        </div>
+
+    </body>
+</html>

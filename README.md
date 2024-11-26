@@ -1,5 +1,5 @@
 # Prime Shine  
-A personal project designed and developed by me, **Prime Shine** is a sleek and modern portfolio/landing page created to showcase my expertise in front-end development and design. With a focus on aesthetics and functionality, this project highlights a contemporary design concept with bold, interactive elements and seamless user navigation.  
+A personal project designed and developed by me, **Prime Shine** is a sleek and modern portfolio/landing page created to showcase my expertise in front-end development and design. With a focus on aesthetics and functionality, this project highlights a contemporary design concept with bold, interactive elements and seamless user navigation.  This was inspired partially by Miami Vice. The theme looked unique and I was curious how I could translate it into a porfolio/landing page.
 
 ---
 

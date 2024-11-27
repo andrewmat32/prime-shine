@@ -120,6 +120,7 @@
                 z-index: 1000;
                 padding-right: 2rem;
                 cursor: pointer;
+                z-index: -1;
             }
 
             .dot {
@@ -134,13 +135,15 @@
         }
 
         .navigation-item:first-child {
-            a {
+            a,
+            span {
                 border-radius: 1rem 1rem 0 1rem;
             }
         }
 
         .navigation-item:last-child {
-            a {
+            a,
+            span {
                 border-radius: 1rem 0 1rem 1rem;
             }
         }

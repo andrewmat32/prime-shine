@@ -50,7 +50,7 @@
 
             <section id="services" class="section section-full services">
                 <div class="container">
-                    <h2 class="neon">Our <span class="flicker-slow">S</span>ervices</h2>
+                    <h2 class="neon"><span class="flicker-slow">S</span>ervices</h2>
                     <div class="services-service">
                         <h3>Exterior Detailing</h3>
                         <p><i class="fa fa-wand-sparkles"></i> &nbsp;Restore your car's shine with our thorough washing, waxing, and paint protection services.</p>
@@ -149,6 +149,23 @@
                 <div data-nav="4" class="navigation-item"><span onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="navigation">Contact</span><div class="dot">•</div></div>
 
                 <div class="navigation-item bottom"><i class="fa fa-caret-down"></i><span class="navigation">Next</span></div>
+            </div>
+        </div>
+
+        <div class="burger-menu">
+            <div class="burger-menu-container">
+                <div class="burger-menu-icon" onclick="toggleBurgerMenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div class="burger-menu-list">
+                    <div class="burger-menu-list-item neon"><span onclick="document.getElementById('hero').scrollIntoView({behavior: 'smooth'}); toggleBurgerMenu()">Home</span></div>
+                    <div class="burger-menu-list-item neon"><span onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); toggleBurgerMenu()">About Us</span></div>
+                    <div class="burger-menu-list-item neon"><span onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'}); toggleBurgerMenu()">Services</span></div>
+                    <div class="burger-menu-list-item neon"><span onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth'}); toggleBurgerMenu()">Gallery</span></div>
+                    <div class="burger-menu-list-item neon"><span onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); toggleBurgerMenu()">Contact</span></div>
+                </div>
             </div>
         </div>
 

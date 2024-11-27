@@ -1013,13 +1013,14 @@ body.no-scroll {
     .burger-menu-list-item {
       position: relative;
       padding: 1rem;
-      font-size: 1.5rem;
       color: whitesmoke;
       text-align: center;
       cursor: pointer;
       transition: all 0.3s; }
       .burger-menu-list-item span {
-        white-space: nowrap; }
+        white-space: nowrap;
+        font-family: 'Monoton', cursive;
+        font-size: 1.7rem; }
 
 .burger-menu.opened .burger-menu-container {
   width: 100vw;

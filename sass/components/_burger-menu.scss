@@ -42,7 +42,6 @@
         &-item {
             position: relative;
             padding: 1rem;
-            font-size: 1.5rem;
             color: whitesmoke;
             text-align: center;
             cursor: pointer;
@@ -50,6 +49,8 @@
 
             span {
                 white-space: nowrap;
+                font-family: 'Monoton', cursive;
+                font-size: 1.7rem;
             }
         }
     }

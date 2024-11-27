@@ -36,8 +36,16 @@ window.onscroll = function () {
     });
 };
 
+function toggleScroll( burgerMenu ) {
+    if (burgerMenu.classList.contains('opened')) {
+        document.body.classList.add('no-scroll'); // Stop scrolling
+    } else {
+        document.body.classList.remove('no-scroll'); // Allow scrolling
+    }
+}
 
 function toggleBurgerMenu() {
-    const nav = document.querySelector('.burger-menu');
-    nav.classList.toggle('opened');
+    const burgerMenu = document.querySelector('.burger-menu');
+    burgerMenu.classList.toggle('opened');
+    toggleScroll(burgerMenu);
 }

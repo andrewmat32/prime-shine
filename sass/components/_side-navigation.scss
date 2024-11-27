@@ -45,6 +45,12 @@
                 position: absolute;
                 text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 
+                user-select: none;
+                -moz-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -o-user-select: none;
+
                 @media screen and (max-width: map-get($media-queries, popup-max)) {
                     background-color: rgba(0, 0, 0, 0.8);
                 };

@@ -30,7 +30,7 @@
 
 ## Why It Matters  
 
-Prime Shine isn’t just a portfolio—it's a concept piece showcasing:  
+Prime Shine isn’t just a landing page—it's a concept piece showcasing:  
 
 - My ability to design visually striking and immersive web experiences.  
 - Expertise in advanced CSS/SCSS techniques to create scalable and maintainable animations.  

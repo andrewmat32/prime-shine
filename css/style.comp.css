@@ -1006,7 +1006,8 @@ body.no-scroll {
       height: 2px;
       background-color: var(--color-neon-pink);
       margin: 6px 0;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      box-shadow: var(--shadow-lg); }
   .burger-menu-list {
     display: none; }
     .burger-menu-list-item {

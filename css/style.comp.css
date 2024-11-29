@@ -933,11 +933,7 @@ body.no-scroll {
       transition: all 0.2s;
       padding-right: 2rem;
       cursor: pointer;
-      z-index: -1; }
-      @media screen and (max-width: 1600px) {
-        .side-navigation .side-navigation-list .navigation-item:hover a,
-        .side-navigation .side-navigation-list .navigation-item:hover span {
-          z-index: 1000; } }
+      z-index: 1000; }
     .side-navigation .side-navigation-list .navigation-item:has(.highlighted) .dot {
       color: var(--color-steel-blue); }
     .side-navigation .side-navigation-list .navigation-item:first-child a,

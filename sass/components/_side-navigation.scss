@@ -120,10 +120,13 @@
                 border-radius: 1rem 0 0 1rem ;
                 right: 0;
                 transition: all 0.2s;
-                z-index: 1000;
                 padding-right: 2rem;
                 cursor: pointer;
                 z-index: -1;
+
+                @media screen and (max-width: map-get($media-queries, popup-max)) {
+                    z-index: 1000;
+                }
             }
 
             .dot {

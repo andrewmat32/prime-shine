@@ -54,7 +54,7 @@
     bottom: $bottom;
     margin-right: $margin-right;
 
-    //@media screen and (max-width: map-get($media-queries, popup-max)) {
+    //@media screen and (max-width: map-get($media-queries, desktop-min)) {
     //    width: 100%;
     //    margin-right: 0;
     //}
@@ -102,5 +102,19 @@
         .#{$prefix}-#{$key} {
             #{$property}: #{$value};
         }
+    }
+}
+
+@mixin typeWriter( $color, $animate: false ) {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid $color; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+
+    @if $animate {
+        animation:
+                typing 1.5s steps(40, end),
+                blink-caret .75s step-end infinite;
     }
 }

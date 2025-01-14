@@ -7,8 +7,6 @@
  */
 html {
   box-sizing: border-box;
-  background-color: $color-midnight-blue;
-  scroll-behavior: smooth;
 }
 
 /**
@@ -21,4 +19,10 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.typewriter {
+  display: block;
+  @include typeWriter( $color-main, true );
+  //margin: 0 545px;
 }

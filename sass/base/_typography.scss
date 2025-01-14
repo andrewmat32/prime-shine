@@ -213,37 +213,31 @@ $typography-styles: (
 h1,
 .h1 {
     @include typography( 'headings', 'h1' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 }
 
 h2,
 .h2 {
     @include typography( 'headings', 'h2' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 }
 
 h3,
 .h3 {
     @include typography( 'headings', 'h3' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 }
 
 h4,
 .h4 {
     @include typography( 'headings', 'h4' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 }
 
 h5,
 .h5 {
-    @include typography( 'headings', 'h5' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
 }
 
 h6,
 .h6 {
     @include typography( 'headings', 'h6' );
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
+
 }
 
 p {
@@ -261,9 +255,9 @@ span {
 
 .sub-title {
     font-family: $accentFont;
-    //color: $color-action;
+    color: $color-action;
     font-size: 2.5rem;
-    text-shadow: 2px 2px 0 rgba($color-steel-blue-rgb, 0.1);
+    text-shadow: 2px 2px 0 rgba($color-main, 0.1);
     text-align: center;
 }
 

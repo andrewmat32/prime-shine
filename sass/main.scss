@@ -16,16 +16,8 @@
         'base/helpers';
 
 // 4. Components
-@import 'components/side-navigation',
-        'components/burger-menu';
-//        'components/_search',
-//        'components/_rating',
-//        'components/_product-card',
-//        'components/_destination-card',
-//        'components/_guides',
-//        'components/_scroll-to-top',
-//        'components/_contact',
-//        'components/_pagination';
+@import 'components/_scroll-to-top',
+        'components/_gallery';
 
 
 // 5. Page-specific styles
@@ -35,16 +27,12 @@
 
 
 // 7. Template
-@import 'template/section',
-        'template/section-options';
+@import 'template/section';
 
 
 // 8. Layout
-@import 'layout/hero',
-        'layout/about',
-        'layout/services',
-        'layout/gallery',
-        'layout/contact';
+//@import 'layout/header';
+
 
 .container {
     @include container;
@@ -62,3 +50,10 @@ html {
 
 @include generate-classes('gap', 'gap', $gap);
 
+body {
+    background-image: url('../images/bg-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}

@@ -79,18 +79,37 @@
     --media-query-mobile-max: 767px;
     --media-query-mobile-large: 550px;
 
-    //// ** COLORS **
-    //--columns: 12;
-    --color-main: #1a202c;
-    --color-main-dark: #121826;
-    --color-main-light: #2d3748;
+    // ** COLORS **
+    --color-dark-black: #0D0D0D;
+    --color-dark-black-rgb: 13, 13, 13;
 
-    --secondary-color: #edf2f7;
-    --secondary-color-dark: #e2e8f0;
+    --color-classic-silver: #C0C0C0;
+    --color-classic-silver-rgb: 192, 192, 192;
 
-    --tertiary-color: #e53e3e;
+    --color-dark-navy: #1A2A41;
+    --color-dark-navy-rgb: 26, 42, 65;
 
-    --action-color: #38a169;
+    --color-gunmetal-gray: #4B4B4B;
+    --color-gunmetal-gray-rgb: 75, 75, 75;
+
+    --color-dark-chrome: #383838;
+    --color-dark-chrome-rgb: 56, 56, 56;
+
+    --color-midnight-blue: #2C3E50;
+    --color-midnight-blue-rgb: 44, 62, 80;
+
+    --color-obsidian-black: #1C1C1C;
+    --color-obsidian-black-rgb: 28, 28, 28;
+
+    --color-steel-blue: #4682B4;
+    --color-steel-blue-rgb: 70, 130, 180;
+
+    --color-neon-pink-faded: #FFD5FF;
+    --color-neon-pink-faded-rgb: 255, 213, 255;
+
+    --color-neon-pink: #D42CCA;
+    --color-neon-pink-rgb: 212, 44, 202;
+
 
     --overlay-medium: rgba(0, 0, 0, 0.5);     // Moderate Dark Overlay
     --overlay-light: rgba(0, 0, 0, 0.08);     // Subtle Dark Overlay
@@ -109,42 +128,36 @@
     --border-radius: .5rem;
 }
 
+// ** COLORS **
+$color-dark-black: var(--color-dark-black); // Deep black for a sleek and luxurious look
+$color-dark-black-rgb: var(--color-dark-black-rgb);
 
-$color-main: #1a202c;
-.color-main {
-    color: $color-main;
-}
+$color-classic-silver: var(--color-classic-silver); // Classic silver for a modern and metallic finish
+$color-classic-silver-rgb: var(--color-classic-silver-rgb);
 
-$color-main-dark: #121826;
-.color-main-dark {
-    color: $color-main-dark;
-}
-$color-main-light: #2d3748;
-.color-main-light {
-    color: $color-main-light;
-}
+$color-dark-navy: var(--color-dark-navy); // Dark navy blue for sophistication and depth
+$color-dark-navy-rgb: var(--color-dark-navy-rgb);
 
-$color-secondary: #edf2f7;
-.color-secondary {
-    color: $color-secondary;
-}
+$color-gunmetal-gray: var(--color-gunmetal-gray); // Gunmetal gray for a subtle, professional metallic tone
+$color-gunmetal-gray-rgb: var(--color-gunmetal-gray-rgb);
 
-$color-secondary-dark: #e2e8f0;
-.color-secondary-dark {
-    color: $color-secondary-dark;
-}
+$color-dark-chrome: var(--color-dark-chrome); // Dark chrome for a polished, high-end feel
+$color-dark-chrome-rgb: var(--color-dark-chrome-rgb);
 
-$color-tertiary: #e53e3e;
-.color-tertiary {
-    color: $color-tertiary;
-}
+$color-midnight-blue: var(--color-midnight-blue); // Midnight blue for an elegant and premium touch
+$color-midnight-blue-rgb: var(--color-midnight-blue-rgb);
 
-$color-action: #38a169;
-.color-action {
-    color: $color-action;
-}
+$color-obsidian-black: var(--color-obsidian-black); // Obsidian black for a deep, glossy, and luxurious vibe
+$color-obsidian-black-rgb: var(--color-obsidian-black-rgb);
 
-$filter-color-main: brightness(0) saturate(100%) invert(9%) sepia(42%) saturate(2709%) hue-rotate(328deg) brightness(99%) contrast(88%);
+$color-steel-blue: var(--color-steel-blue); // Steel blue for a metallic yet vibrant accent
+$color-steel-blue-rgb: var(--color-steel-blue-rgb);
+
+$color-neon-pink-faded: var(--color-neon-pink-faded); // Faded neon pink for a soft and dreamy look
+$color-neon-pink-faded-rgb: var(--color-neon-pink-faded-rgb);
+
+$color-neon-pink: var(--color-neon-pink); // Neon pink for a bold and energetic pop of color
+$color-neon-pink-rgb: var(--color-neon-pink-rgb);
 
 $overlay-medium: rgba(0, 0, 0, 0.5);     // Moderate Dark Overlay
 $overlay-light: rgba(0, 0, 0, 0.08);     // Subtle Dark Overlay
@@ -152,7 +165,6 @@ $overlay-none: rgba(3, 2, 1, 0);         // Invisible Background Layer
 
 $columns: 12;
 $content-gap: 1rem;
-$content-gap-small: 0.5rem;
 
 $shadow-sm: var(--shadow-sm);
 $shadow-default: var(--shadow-default);
@@ -237,9 +249,10 @@ $grid-span-values: (
 //$buttonFont: "Open Sans Semi Condensed";
 
 //Text
-$headingFont: 'Space Grotesk';
-$font: 'Space Grotesk';
+//$headingFont: "Fugaz One";
+$headingFont: "Merriweather" open-sans;
+$font: "AudioWide";
 // buttonFont applies to all typography elements of type 'buttons' in typography mixin
-$buttonFont: 'Space Grotesk';
-$accentFont: 'Space Grotesk';
+$buttonFont: "AudioWide";
+$accentFont: "FugazOne";
 
